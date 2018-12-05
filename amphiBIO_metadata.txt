@@ -1,0 +1,44 @@
+
+This data was downloaded from the following paper on 12/03/2018: Oliveira BF, São-Pedro VA, Santos-Barrera G, Penone C, Costa GC. 2017. AmphiBIO, a global database for amphibian ecological traits. Scientific Data 4: 170123.
+
+It is ecological trait data for all amphibian species (habitat, diet, diel, life history). The columns in the dataset are in the table below.
+
+Column name, Description
+id, AmphiBIO species identification number
+Order, Amphibian Species of the World Order (Frost 2011)
+Family, Amphibian Species of the World Family (Frost 2011)
+Genus, Amphibian Species of the World Genus (Frost 2011)
+Species, Amphibian Species of the World species scientific name (Frost 2011)
+Fos, fossorial
+Ter, terrestrial
+Aqua, aquatic
+Arb, arboreal
+Leaves, species eat leaves
+Flowers, species eat flowers
+Seeds, species eat seeds
+Fruits, species eat fruits
+Arthro, species eat arthropods
+Vert, species eat vertebrates (includes cannibalism)
+Diu, diurnal (i.e., active during the day)
+Noc, nocturnal (i.e., active during the night)
+Crepu, crepuscular (i.e., active during the period immediately after dawn and that immediately before dusk)
+Wet_warm, activity is during wet and warm months
+Wet_cold, activity is during wet and cold months
+Dry_warm, activity is during dry and warm months
+Dry_cold, activity is during dry and cold months
+Body_mass_g, maximum adult body mass
+Age_at_mature_min_y, minimum age at maturation/sexual maturity
+Age_at_mature_max_y, maximum age at maturation/sexual maturity
+Body_size_mm, maximum adult body size. In Anura body size is reported as snout to vent length (mm SVL) In Gymnophiona and Caudata body size is reported as total length (mm TL)
+Size_at_mature_min_mm, minimum mm size at maturation/sexual maturity
+Size_at_mature_max_mm, maximum mm size at maturation/sexual maturity
+Longevity_max_y, maximum life span
+Litter_size_min_n, minimum no of offspring or eggs per clutch
+Litter_size_max_n, maximum no of offspring or eggs per clutch
+Reproductive_output_y, maximum no reproduction events per year
+Offspring_size_min_mm, minimum offspring or egg size
+Offspring_size_max_mm, maximum offspring or egg size
+Dir, Species reproduce via direct development
+Lar, Species present larval stages
+Viv, Species is viviparous
+OBS, Misc comments

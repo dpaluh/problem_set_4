@@ -1,0 +1,58 @@
+Description:
+This dataset came from the "AmphiBIO, a global database for amphibian ecological traits (Scientific Data 4: 170123)" database. 
+
+Tables:
+This data will be separated into two tables, one about the amphibian taxonomy, and one about ecological traits. I chose to normalize the data in this manner to satisfy the 3 normal forms. 
+A one-to-many relationship exists: one genus in table 1 can be linked to many species in table 2, but a single species in table 2 can be linked to only one genus in table 1.
+
+
+Table 1: Amphibian taxonomy
+Column names:
+Genus (STRING)
+Family (STRING)
+Order (STRING)
+
+Primary key: Genus (STRING) 
+
+
+Table 2: Ecological traits
+Column names: 
+id (INTEGER) 
+Species (STRING)
+Genus (STRING)
+Fos (INTEGER)
+Ter (INTEGER)
+Aqua (INTEGER)
+Arb (INTEGER)
+Leaves (INTEGER)
+Flowers (INTEGER)
+Seeds (INTEGER)
+Fruits (INTEGER)
+Arthro (INTEGER)
+Vert (INTEGER)
+Diu (INTEGER)
+Noc (INTEGER)
+Crepu (INTEGER)
+Wet_warm (INTEGER)
+Wet_cold (INTEGER)
+Dry_warm (INTEGER)
+Dry_cold (INTEGER)
+Body_mass_g (FLOAT)
+Age_at_mature_min_y (FLOAT)
+Age_at_mature_max_y (FLOAT)
+Body_size_mm (FLOAT)
+Size_at_mature_min_mm (FLOAT)
+Size_at_mature_max_mm (FLOAT)
+Longevity_max_y (FLOAT)
+Litter_size_min_n (INTEGER)
+Litter_size_max_n (INTEGER)
+Reproductive_output_y (INTEGER)
+Offspring_size_min_mm (FLOAT)
+Offspring_size_max_mm (FLOAT)
+Dir (INTEGER)
+Lar (INTEGER)
+Viv (INTEGER)
+OBS (STRING)
+
+Primary key: id (INTEGER)
+Foreign Key: Genus_id (STRING) 
