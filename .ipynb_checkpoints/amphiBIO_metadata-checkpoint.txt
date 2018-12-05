@@ -41,4 +41,3 @@ Offspring_size_max_mm, maximum offspring or egg size
 Dir, Species reproduce via direct development
 Lar, Species present larval stages
 Viv, Species is viviparous
-OBS, Misc comments

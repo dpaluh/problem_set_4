@@ -1,0 +1,41 @@
+Extra Credit: Find another dataset, briefly describe the dataset and columns. Briefly describe the tables you would use and how you would normalize these data. (2pts.) 
+
+
+Description:
+This is the NOAA Significant Earthquake Database, containing information on destructive earthquakes from 1250 CB to present, downloaded on 12/05/2018 from https://www.ngdc.noaa.gov/nndc/struts/form?t=101650&s=1&d=1
+
+
+Tables:
+This data will be separated into two tables, one about the location of earthquakes, and one about the destructive force of each earthquake. 
+A one-to-many relationship exists: one location in table 1 can be linked to many earthquakes in table 2, but a single earthquake in table 2 can be linked to only one location in table 1.
+
+
+Table 1: 
+Column names:
+Location_ID (Integer)
+Location_Name (String)
+Region Code (Integer)
+State (String)
+Country Code (String)
+Country (String)
+
+Primary key: Location_ID  (Integer) 
+
+
+Table 2: 
+Column names:
+Earthquake ID (Integer; unique ID for each earthquake)
+Year (Integer; year of earthquake)
+Month (Integer; month of earthquake)
+Focal Depth (Integer; focal depth of earthquake)
+Magnitude (Integer; magnitude of earthquake)
+Intensity (Integer; intensity of earthquake)
+Location_ID  (Integer) ; location of earthquake)
+Latitude (Integer)
+Longitude (Integer)
+Deaths (Integer; number of deaths attributed to earthquake)
+Injuries (Integer; number of injuries attributed to earthquake)
+
+Primary key: Earthquake ID (Integer) 
+Foreign key: Location_ID (String) 
+

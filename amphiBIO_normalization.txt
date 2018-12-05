@@ -56,3 +56,5 @@ OBS (STRING)
 
 Primary key: id (INTEGER)
 Foreign Key: Genus_id (STRING) 
+
+# I changed all of these to STRING data in attempt to fix an error message I was receiving due to missing data
